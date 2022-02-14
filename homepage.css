@@ -1,0 +1,305 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.712),rgba(0, 0, 0, 0.685)),url(./images/backimg.jpg);
+    position:relative;
+   background-size: cover;
+   background-position: center;
+
+}
+
+.nav{
+    padding:2% 4%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{width: 150px;
+    padding: 2% 6%;
+    cursor: pointer;
+   
+
+}
+.rightnav{
+    float:right;
+    padding: 2% 6%;
+}
+.rightnav button{
+    width:100px;
+    height:40px;
+    color:white;
+    background-color: red;
+    font-size: 20px;
+    font-family: sans-serif;
+   border: none;
+   border-radius: 3px;
+   cursor: pointer;
+
+
+}
+.textbox{
+    width: 90%;
+    position:absolute;
+    text-align: center;
+    top: 40%;
+    transform: translate(5%);
+    color: white;
+}
+
+.textbox h1{
+    font-size: 45px;
+}
+
+.textbox p1{
+    font-size: 20px;
+}
+
+.search{
+  
+    border-radius:3px;
+    display: flex;
+    justify-content: center;
+    padding-top: 15px ;
+   
+    
+}
+input[type="text"] {
+
+    padding: 15px 20px; 
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+}
+.search button {
+    background:red;
+    color: white;
+    /* width: 120px; */
+    font-size: 20px;
+    /* position: sticky; */
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition:.4s;
+    height: 55px;
+} 
+.search button:hover{
+    background: rgb(155, 19, 19);
+}
+
+
+/* ---------cards--------- */
+
+.cards{ 
+    margin: auto;
+    text-align: center;
+    width: 100%;
+    padding-top: 20px;
+    background-color: black;
+    color: white;
+
+}
+.tv{
+    background: black;
+    /* position: relative; */
+    /* width: 100%; */
+    padding: 20px;
+}
+.tvtext{
+    float: left;
+    padding: 70px;  
+}
+.tv img{
+    width: 300px
+}
+.tv p1{
+    font-size: 25px;
+}
+.tv h1{
+    font-size: 50px;
+
+}
+
+
+
+.dl{
+    background: black;
+    /* position: relative; */
+    /* width: 100%; */
+    padding: 20px;
+}
+.dltext{
+    float:right;
+   margin-top: 30px; 
+}
+.dl img{
+    width: 300px
+}
+.dl p1{
+    font-size: 25px;
+}
+.dl h1{
+    font-size: 50px;
+
+}
+
+.kid{
+    background: black;
+    /* position: relative; */
+    /* width: 100%; */
+    padding: 20px;
+
+}
+.kidtext{
+    float: left;
+    padding: 70px;  
+}
+.kid img{
+    width: 300px
+}
+.kid p1{
+    font-size: 25px;
+}
+.kid h1{
+    font-size: 50px;
+
+}
+.line{
+    border:5px solid rgb(58, 52, 52);
+    height: 3px;
+    background-color: rgb(58, 52, 52);
+}
+
+/* ---------Footer--------- */
+
+.footer{
+    background-color: black;
+    color: white;
+
+}
+.footer h1{
+    color:red;
+        font-size: 20px;
+        padding-left: 20px;
+        padding-top: 10px;
+}
+.row{
+    height: 30vh;
+    width: 100%;
+}
+
+}
+.footer-col1,.footer-col2,.footer-col3,.footer-col4{
+    min-height: auto;
+    /* float: left; */
+    background-color: black;
+    margin-top: 200px;
+    
+}
+
+.footer-col1{
+    text-align: left;
+    padding: 14px 20px;
+    width: 25%;
+    float: left;
+    font-size: 15px;
+    margin-top: 20px;
+}
+.footer-col1 ul li a{
+    text-decoration: none;
+    color: white;
+    
+}
+.footer-col1 ul li a:hover{
+    color: red;
+}
+.footer-col2 ul li a:hover{
+    color: red;
+}
+.footer-col3 ul li a:hover{
+    color: red;
+}
+.footer-col4 ul li a:hover{
+    color: red;
+}
+
+.footer-col1 ul{
+    list-style: none;
+}
+.footer-col2{
+    text-align: left;
+    padding-top: 14px;
+    width: 25%;
+    float: left;
+    font-size: 15px;
+    margin-top: 20px;
+}
+.footer-col2 ul{
+    list-style: none;
+}
+.footer-col2 ul li a{
+    text-decoration: none;
+    color: white;
+}
+.footer-col3{
+    text-align: left;
+    padding-top: 14px;
+    width: 25%;
+    font-size: 15px;
+    float: left;
+    margin-top: 20px;
+}
+.footer-col3 ul li a{
+    text-decoration: none;
+    color: white;
+}
+.footer-col3 ul{
+    list-style: none;
+}
+.footer-col4{
+    text-align: left;
+    padding-top: 14px ;
+    width: auto;
+    font-size: 15px;
+    margin-top: 20px;
+}
+.footer-col4 ul li a{
+    text-decoration: none;
+    color: white;
+}
+.footer-col4 ul{
+    list-style: none;
+}
+.logoicon{
+    display: none;
+}
+
+
+
+ @media only screen and (max-width:700px){
+   
+    }
+    .logo{
+        
+        width: 100px;
+    } 
+    .button{
+        width: 85px;
+        font-size: 10px;
+    }
+}
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,232 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.header{
+    width: 100;
+    height: 100vh;
+    background: rgb(0, 0, 0);
+}
+
+.sidenav{
+     width: 250px;
+    height: 100vh;
+    color: white;
+    background: rgba(255, 255, 255, 0.178);
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 20px 30px;
+} 
+.logo{
+    display: block;
+    margin-bottom: 10px;
+    width: 150px;
+}
+.logoimg{
+    width: 150px;
+    
+}
+.navlinks{
+    list-style: none;
+     position: relative;
+
+}
+.navlinks li{
+    /* padding: 20px 0; */
+    margin-top: 30px;
+}
+.navlinks li a{
+    color: white;
+    text-decoration:none;
+    padding: 10px 14px
+    display:flex;
+    align-items:center;
+
+
+}
+.navlinks li a i{
+    font-size: 22px;
+    margin-right: 20px;
+    float: left;
+
+}
+
+
+.navlinks li:hover a{
+    color:red;
+    transition: .2s;
+}
+.logoi{
+    width: 50px;
+    display: none;
+}
+
+
+
+
+.downmenu ul li a {
+    text-decoration: none;
+    color: white; 
+}
+
+.downmenu{
+    margin-top: 220px;
+    margin-left: 20px;
+
+}
+
+
+.downmenu li{
+    /* padding: 20px 0; */
+    margin-top: 30px;
+}
+.downmenu li a{
+    color: white;
+    text-decoration:none;
+    padding: 10px 14px
+    display:flex;
+    align-items:center;
+    list-style: none;
+
+
+}
+.downmenu li a i{
+    font-size: 22px;
+    margin-right: 20px;
+    float: left;
+
+}
+.downmenu ul li{
+    list-style: none;
+}
+
+.downmenu li:hover a{
+    color:red;
+    transition: .2s;}
+
+
+ @media only screen and(max-width:550px){
+     .downmenu ul li a p{
+         display: none;
+     }
+ }
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px){
+    .sidenav{
+        width: 110px;
+
+    }
+    .logoi{
+        display: block;
+    }
+    .logoimg{
+        display: none;
+    }
+    .navlinks li a p{
+        display: none;
+    }
+    .navlinks li a i{
+        margin-right: 0;
+        padding: 10px 1px;
+        margin: 10px;
+        font-size: 30px;
+
+    }
+    .navlinks li a{
+        justify-content: center;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

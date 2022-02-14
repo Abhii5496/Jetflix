@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+    font-style: 'Poppins', sans-serif;
+}
+
+.container{
+    min-height: 100vh;
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.712),rgba(0, 0, 0, 0.685)),url(./images/backimg.jpg);
+    position:relative;
+   background-size: cover;
+   background-position: center;
+   box-sizing: border-box;
+   font-style: 'Poppins', sans-serif;
+
+}
+
+.nav{
+    padding:2% 4%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{width: 150px;
+    padding: 2% 6%;
+    cursor: pointer
+
+}
+.box{
+    background-color:rgba(253, 253, 253, 0.274);
+    width:400px;
+    align-items: center;    
+    position: relative;
+    color: rgb(255, 255, 255);
+    
+    padding: 20px  ;
+    margin: auto;
+
+}
+.details{
+    padding: 14px 12px;
+    margin-top: 10px;
+}
+.fname{
+    padding: 10px 5px;
+    margin: 10px 0;
+    width: 335px;
+    font-size: 20px;
+}
+.lname{
+    padding: 10px 5px;
+    margin: 10px 0;
+    width: 335px;
+    font-size: 20px;
+}
+.card{
+    padding: 10px 5px;
+    margin: 10px 0;
+    width: 335px;
+    font-size: 20px;
+}
+.expiry{
+    padding: 10px 5px;
+    margin: 10px 0;
+    width: 335px;
+    font-size: 20px;
+}
+.plan{
+    /* align-items: center; */
+    display: inline-flex;
+    /* justify-content: center; */
+}
+.plan h3{
+    font-size: 18px;
+    margin-bottom: 10px;
+    
+}
+p{
+    margin-top: 10px;
+    font-size: 20px;
+}
+.left{
+    width: 70%;
+    align-items: left;
+
+}
+
+.right{
+    align-items: right;
+    float: right;
+    margin-left: 20px;
+}
+button {
+    width: 65px;
+    height: 40px;
+    border-radius: 5px;
+    background: red;
+    border: none;
+    color: white;
+    font-size: 16px;
+}
+button:hover{
+    background: rgb(199, 6, 6);
+}
+.en{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.en button{
+    background: red;
+    text-align: center;
+    width: 150px;
+    font-size: 20px;
+    font-weight: bold;
+    transition: .5s;
+
+}
+.en button:hover{
+    background-color: green;
+}
+
+
