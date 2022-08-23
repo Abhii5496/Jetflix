@@ -6,8 +6,9 @@
 }
 .header{
     width: 100;
-    height: 100vh;
+    height: auto;
     background: rgb(0, 0, 0);
+    
 }
 
 .sidenav{
@@ -116,7 +117,20 @@
      }
  }
 
-  
+ .boxes{
+    height: 100vh;
+    padding-top: 20px;
+     margin-left: 260px;
+     background-color: black;
+     position: sticky;
+     width: 1120px;
+
+ }
+
+.card {
+    float: left;
+    padding: 10px 10px;
+}
 
 
 

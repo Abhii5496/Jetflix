@@ -54,9 +54,9 @@
     text-align: center;
 
 }
-/* .pcol:hover{
-    background: rgb(185, 4, 4);
-} */
+.pcol:hover{
+    background: black;
+}
 .pcol p{
     font-size: 25px;
     font-weight: bolder;
@@ -79,6 +79,7 @@
     background: transparent;
     color: white;
     font-size: 17px;
+    background-color: blue;
     border: 1px rgb(74, 173, 7);
     border-radius: 6px;
     margin-top: 30px;
@@ -87,7 +88,7 @@
 
 }
 .pcol a button:hover{
-    background: black;
+    background: red;
 
 }
 /* 
